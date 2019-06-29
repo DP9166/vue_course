@@ -31,6 +31,11 @@ export default [
       component: () => import( '@/views/About.vue')
     },
     {
+      path: '/count-to',
+      name: 'count-to',
+      component: () => import( '@/views/count-to.vue')
+    },
+    {
       path: '/argu/:name',
       name: 'argu',
       props: true,
